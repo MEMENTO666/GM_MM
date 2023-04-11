@@ -1,0 +1,58 @@
+#section_02 {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: end;
+  /* align-items: end; */
+  flex-direction: column;
+}
+
+.GM_MM_TEXT_02 {
+  width:100vw;
+  height:60px;
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  position: absolute;
+  
+}
+
+.GM_MM_TEXT_02 > p {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "GM_R", "Noto Sans", Helvetica, Arial, sans-serif !important;
+  color: white;
+}
+
+.New_arrivals {
+  width:100vw;
+  height:60px;
+  /* border: 1px solid black; */
+  position: absolute;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  
+}
+
+.New_arrivals > div  {
+  width:160px;
+  height:40px;
+  border: 1px solid white;
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.25);
+  font-weight: 550;
+  color: white;
+}
