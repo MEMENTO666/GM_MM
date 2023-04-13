@@ -29,6 +29,10 @@
   overflow-y: hidden;
 }
 
+.see_details div > p {
+  margin:0px;
+}
+
 .see_details > div  {
   width:160px;
   height:40px;

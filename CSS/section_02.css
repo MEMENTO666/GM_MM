@@ -66,3 +66,8 @@
   font-weight: 550;
   color: white;
 }
+
+.New_arrivals > div > p {
+  margin: 0;
+}
+

@@ -16,6 +16,7 @@
   min-height: 100%;
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
 
 .GM_MM_TEXT {
@@ -63,3 +64,8 @@
   font-weight: 550;
   
 }
+
+.buy_pop > div > p  {
+  margin: 0;
+}
+

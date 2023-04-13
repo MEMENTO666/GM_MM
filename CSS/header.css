@@ -20,7 +20,6 @@
   justify-content: center;
   position:relative;
   opacity: 1;
-
 }
 
 .menu_list > li {
@@ -76,6 +75,10 @@
   font-weight: bold;
 }
 
+#right_menu > div > p {
+  margin: 0;
+}
+
 #right_menu > div:nth-child(1) {
   width:25px;
   height:25px;
@@ -99,5 +102,10 @@
   .menu_list {
     display: none;
   }
-  
+}
+
+@media screen and (max-width:900px) {
+  #right_menu > div:nth-child(4) {
+    display: none;
+  }
 }
