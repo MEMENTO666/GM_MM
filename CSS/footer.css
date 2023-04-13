@@ -36,6 +36,12 @@
 
 }
 
+.accordion {
+  --bs-accordion-active-color: black;
+  --bs-accordion-active-bg: #ffffff;
+
+}
+
 .accordion-button > p {
   margin: 0;
   overflow-y: hidden;
@@ -96,6 +102,7 @@
   #footer {
     /* border: 1px solid black; */
     height: auto;
+    padding: 0px 0px 0px 10px;
   }
   
   .footer_list {
@@ -113,6 +120,7 @@
     height:150px;
     padding:0px;
     flex-direction: column;
+    margin-top: 30px;
   
   }
 
