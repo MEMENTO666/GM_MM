@@ -8,9 +8,8 @@
   flex-direction: column;
 }
 
-#section_02 > video {
- /* background-repeat: no-repeat; */
-  /* background-size:cover; */
+
+.GM_SECTION_02 {
   object-position:center;
   object-fit: cover;
   min-height: 100%;
@@ -71,3 +70,19 @@
   margin: 0;
 }
 
+@media screen and (max-width:768px) {
+  #section_02 {
+    width: 100%;
+  }
+
+  .GM_SECTION_02 {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .GM_SECTION_02_MB {
+    display: none;
+    width: 100vw;
+  }
+}

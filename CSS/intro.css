@@ -71,3 +71,20 @@
   margin: 0;
 }
 
+@media screen and (max-width:768px) {
+  #intro {
+    width: 100%;
+    height:100vh;
+  }
+
+  .GM_INTRO_01 {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .GM_INTRO_01_MB {
+    display: none;
+  }
+}
+
