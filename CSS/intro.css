@@ -67,8 +67,21 @@
   
 }
 
+.buy_pop > div > a    {
+  text-decoration: none;
+}
+
 .buy_pop > div > p  {
   margin: 0;
+
+
+}
+
+.buy_pop > div > a > p  {
+  margin: 0;
+  color: #212529;
+
+
 }
 
 @media screen and (max-width:768px) {
