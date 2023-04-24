@@ -55,12 +55,14 @@
 
 .accordion-button::after {
   background-image:url(../asset/PLUS.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 12px;
 }
 
 .accordion-button:not(.collapsed)::after {
   background-image:url(../asset/MINUS.png);
+  background-position: center;
 }
 
 .accordion-body {
